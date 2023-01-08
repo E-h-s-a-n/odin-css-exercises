@@ -22,6 +22,7 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
 
+
 .icon {
   color: royalblue;
   font-size: 26px;
@@ -41,8 +42,8 @@ body {
   color: #888;
   font-weight: 400;
   font-size: 16px;
-  height: 24px;
-  width: 24px;
+  height: 26px;
+  width: 26px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -55,7 +56,7 @@ button {
 
 button.continue {
   background: royalblue;
-  border: 1px solid royalblue;
+  border:1px solid royalblue;
   color: white;
 }
 
@@ -63,4 +64,39 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+/* here we go */
+
+.modal {
+  display: flex;
+  padding: 16px;
+  gap: 16px;
+}
+
+.icon {
+  flex: 1 0 auto;
+  /* margin: 0 16px 0 0; */
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 14px;
+}
+
+.header{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.close-button{
+  flex: 0 auto;
+  font-size: 12px;
+}
+
+.text{
+  margin-bottom: 16px;
 }

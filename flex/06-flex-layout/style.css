@@ -25,3 +25,54 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* Here We GO */
+*{
+  margin: 0;
+  padding: 0; 
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons > button {
+  padding: 10px 20px;
+}
+
+.content {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 17px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(94, 92, 92); 
+} 
+
+.header,
+.footer {
+  display: flex;
+  padding: 17px 20px;
+    /* border: 0.5px solid cyan */
+}
+
+.footer {
+  background-color: rgba(233, 233, 233, 0.74);
+}
+
+.left-links,
+.right-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.right-links {
+  margin-left: auto;
+}

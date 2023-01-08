@@ -24,5 +24,70 @@ body {
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  background-color: #fafafa;
   border-radius: 4px;
+  max-width: 250px;
+}
+
+/* Here We Go */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.sidebar {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  padding: 16px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+.container {
+  flex: 1;
+  display: flex;
+}
+
+.card {
+  max-width: 300px;
+  padding: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 32px;
+}
+a:hover {
+  font-weight: 900;
 }
